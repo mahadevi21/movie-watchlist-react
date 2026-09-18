@@ -4,9 +4,7 @@ import { useState,useEffect } from 'react'
 import axios from 'axios'
 import './App.css'
 
-
-
- function App(){ 
+function App(){ 
   const [movies, setMovies] = useState([])
   const [watchlist, setWatchlist] = useState([])
   const [loading, setLoading] = useState(true)
